@@ -55,13 +55,13 @@ const Home = () => {
                                   <Image src="/images/pc.png" alt="Vintage Computer Logo" className="header-icon" width={60} height={53} />
                                 </div>
                                 <div className="logo-text">
-                                    <div className="logo-text__name">Luiz Bueno's</div>
+                                    <div className="logo-text__name">Luiz Bueno`s</div>
                                     <div className="logo-text__subtext">Web Development</div>
                                     <div className="logo-text__subtext">Website</div>
                                 </div>
                             </div>
                         </a>
-                        <div className="nav-collapse collapse" style={show?{overflow:"visible"}:{overflow:'hidden'}}>
+                        <div className="nav-collapse collapse" style={show?{overflow:"visible"}:{overflow:"hidden"}}>
                             <ul className="nav">
                                 <li>
                                     <a href="#portifolio" onClick={closeMenu}>#Portifolio</a>
@@ -95,12 +95,12 @@ const Home = () => {
                             <div className="col-lg-12 second-title">
                             <Typist cursor={{show: false}}>
                                 <Typist.Delay ms={5000} />
-                                And I'm a Web Developer!
+                                And I`m a Web Developer!
                             </Typist>
                             </div>
                         </div>
                         <video poster="images/poster.webp" autoPlay="autoplay" loop="loop" tabIndex="0">
-                            <source src="images/coding.webm" type='video/webm; codecs="vp8, vorbis"'/>
+                            <source src="images/coding.webm" type="video/webm;" codecs="vp8, vorbis"/>
                         </video>
                     </div>
                 </div>
@@ -109,20 +109,20 @@ const Home = () => {
                     <div className="row">
                         <div className="hero-unit mx-auto about-wrapper">
                             <p>
-                                I've been working since 2009 develop systems both in the Frontend and Backend
+                                I`ve been working since 2009 develop systems both in the Frontend and Backend
                                 part, with web-based applications. And I like to create good experiences, so
                                 people feel the applications I developed are useful, effective and friendly.
                             </p>
                             <p>
-                                I'm Web developer who have a Bachelor degree in Information Systems by
+                                I`m Web developer who have a Bachelor degree in Information Systems by
                                 Pontifícia Universidade Católica de Minas Gerais (PUC - Minas). I have a
                                 postgraduate course in Web Development Systems, by Pontifícia Universidade
-                                Católica de Minas Gerais (PUC - Minas). And by now, i'm coursing UX Desing &
+                                Católica de Minas Gerais (PUC - Minas). And by now, i`m coursing UX Desing and
                                 Agile Frameworks postgraduate course at Pontifícia Universidade Católica de
                                 Minas Gerais (PUC - Minas) too, trying to increase my knowledge in this topics.
                             </p>
                             <p>
-                                I'm also have experience with leadership of development teams, acting as
+                                I`m also have experience with leadership of development teams, acting as
                                 <a href="https://www.scrum.org/user/293231" target="_blank" rel="noopener noreferrer">Scrum Master</a>.
                             </p>
                         </div>
