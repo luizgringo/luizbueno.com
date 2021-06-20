@@ -1,4 +1,5 @@
 import { useRef, useState} from 'react'
+import Typist from 'react-typist';
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -79,13 +80,23 @@ const Home = () => {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-12">
-                                <h1 className="animate-typing" data-type-speed="100">Hi!</h1>
+                                <h1>
+                                <Typist cursor={{show: false}}>
+                                    Hi!
+                                </Typist>
+                                </h1>
                             </div>
                             <div className="col-lg-12 second-title">
-                                <p className="animate-typing" data-type-delay="2000" data-type-speed="100">My name is Luiz Bueno.</p>
+                                <Typist cursor={{show: false}}>
+                                    <Typist.Delay ms={2000} />
+                                    My name is Luiz Bueno.
+                                </Typist>
                             </div>
                             <div className="col-lg-12 second-title">
-                                <p className="animate-typing" data-type-delay="5000" data-type-speed="100">And I'm a Web Developer!</p>
+                            <Typist cursor={{show: false}}>
+                                <Typist.Delay ms={5000} />
+                                And I'm a Web Developer!
+                            </Typist>
                             </div>
                         </div>
                         <video poster="images/poster.webp" autoPlay="autoplay" loop="loop" tabIndex="0">
