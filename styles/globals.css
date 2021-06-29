@@ -121,3 +121,20 @@ footer {
 .test{
   color: red;
 }
+
+.whatsapp {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.whatsapp-title{
+  padding-bottom: 10px;
+}
+
+.whatsapp-image-link {
+  cursor: pointer;
+}
+
+.whatsapp-image-link:hover {
+  background: none;
+}
