@@ -33,6 +33,7 @@ const Home = () => {
                     name="description"
                     content="Online portifolio of Luiz Bueno and his experience with web development, user experience and user interfaces and agile frameworks."/>
                 <meta name="author" content="Luiz Bueno - contact@luizbueno.com"/>
+                <script src="https://s.darwin.to/si60f877daab8c0e21075c7059.js"></script>
             </Head>
 
             <div className="navbar navbar-inverse navbar-fixed-top">
