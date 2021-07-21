@@ -138,3 +138,7 @@ footer {
 .whatsapp-image-link:hover {
   background: none;
 }
+
+.vintage-computer{
+  filter: contrast(100%);
+}

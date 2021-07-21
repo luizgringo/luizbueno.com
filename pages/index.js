@@ -99,9 +99,7 @@ const Home = () => {
                             </Typist>
                             </div>
                         </div>
-                        <video poster="images/poster.webp" autoPlay="autoplay" loop="loop" tabIndex="0">
-                            <source src="images/coding.webm" type="video/webm;" codecs="vp8, vorbis"/>
-                        </video>
+                        <Image className="vintage-computer" src="/images/desktop.gif" alt="Vintage Computer" width={550} height={400} />
                     </div>
                 </div>
 
