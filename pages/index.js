@@ -36,7 +36,7 @@ const Home = () => {
                 <meta name="author" content="Luiz Bueno - contact@luizbueno.com"/>
             </Head>
 
-            <Script src="https://s.darwin.to/si60f877daab8c0e21075c7059.js" />
+            <Script src="https://s.darwin.to/si60f877daab8c0e21075c7059.js" strategy="beforeInteractive" />
 
             <div className="navbar navbar-inverse navbar-fixed-top">
                 <div className="navbar-inner">
