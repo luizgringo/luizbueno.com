@@ -1,12 +1,12 @@
-import { useEffect } from "react"
-import { useRouter } from "next/router"
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 export default function Custom404() {
-  const router = useRouter()
+  const router = useRouter();
 
   useEffect(() => {
-    router.replace("https://analytics.google.com/analytics/academy/certificate/fKBv9cxlQVmSoj-PBDzU8Q")
-  })
+    router.replace('https://analytics.google.com/analytics/academy/certificate/fKBv9cxlQVmSoj-PBDzU8Q');
+  });
 
-  return null
+  return null;
 }
