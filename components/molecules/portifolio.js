@@ -18,11 +18,11 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={education} />
+            <Image src={education} alt='Education Icon' />
           }
         >
           <h3 className='vertical-timeline-element-title'>PUC Minas</h3>
-          <h4 className='vertical-timeline-element-subtitle'>Bachelor's Degree - Information Systems</h4>
+          <h4 className='vertical-timeline-element-subtitle'>Bachelor`s Degree - Information Systems</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
@@ -30,7 +30,7 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={work} />
+            <Image src={work} alt='Working Icon' />
           }
         >
           <h3 className='vertical-timeline-element-title'>SLIIC</h3>
@@ -42,7 +42,7 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={work} />
+            <Image src={work} alt='Working Icon' />
           }
         >
           <h3 className='vertical-timeline-element-title'>Capgemini</h3>
@@ -54,7 +54,7 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={education} />
+            <Image src={education} alt='Education Icon' />
           }
         >
           <h3 className='vertical-timeline-element-title'>PUC Minas</h3>
@@ -66,7 +66,7 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={work} />
+            <Image src={work} alt='Working Icon' />
           }
         >
           <h3 className='vertical-timeline-element-title'>Squadra Tecnologia</h3>
@@ -78,7 +78,7 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={work} />
+            <Image src={work} alt='Working Icon' />
           }
         >
           <h3 className='vertical-timeline-element-title'>Lett Insights</h3>
@@ -90,7 +90,7 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={work} />
+            <Image src={work} alt='Working Icon' />
           }
         >
           <h3 className='vertical-timeline-element-title'>Hotmart</h3>
@@ -102,7 +102,7 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={certificate} margin={'10%'}/>
+            <Image src={certificate} alt='Certificate Icon' margin={'10%'}/>
           }
         >
           <h3 className='vertical-timeline-element-title'>Scrum.org</h3>
@@ -118,7 +118,7 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={work} />
+            <Image src={work} alt='Working Icon' />
           }
         >
           <h3 className='vertical-timeline-element-title'>Arbeit Software</h3>
@@ -130,7 +130,7 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={work} />
+            <Image src={work} alt='Working Icon' />
           }
         >
           <h3 className='vertical-timeline-element-title'>Localiza</h3>
@@ -142,7 +142,7 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={work} />
+            <Image src={work} alt='Working Icon' />
           }
         >
           <h3 className='vertical-timeline-element-title'>Kyte</h3>
@@ -154,7 +154,7 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={certificate} />
+            <Image src={certificate} alt='Certificate Icon' />
           }
         >
           <h3 className='vertical-timeline-element-title'>EF Standard English Test (EF SET)</h3>
@@ -170,7 +170,7 @@ const Portifolio = ({ portifolioRef }) => {
           contentStyle={{ background: '#00aaaa', color: '#fff' }}
           iconStyle={{ background: '#fff', color: '#fff' }}
           icon={
-            <Image src={education} />
+            <Image src={education} alt='Education Icon' />
           }
         >
           <h3 className='vertical-timeline-element-title'>PUC Minas</h3>
@@ -179,7 +179,7 @@ const Portifolio = ({ portifolioRef }) => {
         <VerticalTimelineElement
           iconStyle={{ background: '#000084', color: '#fff' }}
           icon={
-            <Image src={code} />
+            <Image src={code} alt='Code Icon' />
           }
         />
       </VerticalTimeline>
