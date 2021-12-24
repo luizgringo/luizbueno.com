@@ -118,16 +118,12 @@ footer {
   margin: 8px 0 0 0;
 }
 
-.test{
-  color: red;
-}
-
 .whatsapp {
   padding-top: 20px;
   text-align: center;
 }
 
-.whatsapp-title{
+.whatsapp-title {
   padding-bottom: 10px;
 }
 
@@ -139,6 +135,6 @@ footer {
   background: none;
 }
 
-.vintage-computer{
+.vintage-computer {
   filter: contrast(100%);
 }
