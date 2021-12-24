@@ -647,14 +647,6 @@ a:focus {
   clear: both;
 }
 
-img {
-  -webkit-filter: contrast(800%);
-  -moz-filter: contrast(1000%);
-  -ms-filter: contrast(800%);
-  -o-filter: contrast(800%);
-  filter: contrast(1000%);
-}
-
 p {
   margin: 0 0 20px;
 }
@@ -791,14 +783,6 @@ h1,
 h2,
 h3 {
   line-height: 20px;
-}
-
-h3:before {
-  content: '>>> ';
-}
-
-h3:after {
-  content: ' <<<';
 }
 
 h1 {

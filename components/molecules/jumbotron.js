@@ -1,7 +1,7 @@
 import Typist from 'react-typist';
 import Image from 'next/image';
 
-import vintageComputerImg from '../../public/images/vintage-computer.json';
+import vintageComputerImg from '../../public/images/vintagecomputer.gif';
 
 const Jumbotron = () => {
   return (
@@ -33,7 +33,7 @@ const Jumbotron = () => {
               width={500}
               height={400}
               className='vintage-computer'
-              src={vintageComputerImg.base64}
+              src={vintageComputerImg}
             />
           </div>
         </div>
