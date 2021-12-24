@@ -7,7 +7,7 @@ import Hero from '../components/molecules/hero';
 import Social from '../components/molecules/social';
 import Whatsapp from '../components/molecules/whatsapp';
 import Footer from '../components/molecules/footer';
-import Portifolio from '../components/molecules/Portifolio';
+import Portifolio from '../components/molecules/portifolio';
 
 const Home = () => {
   const homeRef = useRef(null);
