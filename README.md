@@ -6,7 +6,7 @@ A **static, single-page portfolio** for **Luiz Bueno**, a full-stack web develop
 
 ## Preview
 
-The image below is a **full-page screenshot** of the application (production build served locally), captured with the **Playwright MCP** browser automation tools after the hero typewriter animation completed. It reflects the current layout: hero, biography, interactive résumé timeline, social links, and **email-only** contact in the footer.
+The image below is a **full-page screenshot** of the application (production build served locally). It reflects the current layout: hero, biography, interactive résumé timeline, social links, and **email-only** contact in the footer.
 
 ![Full-page preview of the portfolio website — retro blue theme, pixel hero headline, vintage computer illustration, teal biography panel, vertical timeline, social buttons, and email contact](docs/site-preview.png)
 
@@ -141,27 +141,6 @@ pnpm lint
 
 The project is a standard Next.js app and can be hosted on **[Vercel](https://vercel.com/)**, any Node-capable PaaS, or a static export workflow if you later migrate to fully static hosting. Configure environment-specific domains and HTTPS at the platform level; no server-only secrets are required for the static marketing pages described here.
 
----
-
-## Updating the README Screenshot
-
-The preview image lives at **`docs/site-preview.png`**. To regenerate it with **Playwright MCP** (or any Playwright-driven browser):
-
-1. Run `pnpm build && pnpm start` (optionally set `PORT`, e.g. `PORT=3020 pnpm start`).
-2. Navigate to the local origin in a Playwright session.
-3. Wait long enough for the hero **typewriter** sequence to finish (~12 seconds from a cold load).
-4. Save a **full-page** PNG to `docs/site-preview.png`.
-
-This keeps the README illustration in sync with the real UI after visual changes.
-
----
-
-## Author
-
-**Luiz Bueno** — full-stack web developer; portfolio and copy are maintained in this repository.
-
----
-
 ## License
 
-This project is **private** (`"private": true` in `package.json`). All rights reserved unless otherwise stated by the author.
+This project is **private** (`"private": true` in `package.json`). All rights reserved unless otherwise stated by Luiz Bueno.
