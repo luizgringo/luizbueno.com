@@ -5,7 +5,6 @@ import NavBar from '../components/molecules/navbar';
 import Jumbotron from '../components/molecules/jumbotron';
 import Hero from '../components/molecules/hero';
 import Social from '../components/molecules/social';
-import Whatsapp from '../components/molecules/whatsapp';
 import Footer from '../components/molecules/footer';
 import Portifolio from '../components/molecules/portifolio';
 
@@ -22,7 +21,6 @@ const Home = () => {
       <Hero />
       <Portifolio portifolioRef={portifolioRef}/>
       <Social />
-      <Whatsapp />
       <Footer contactRef={contactRef}/>
     </div>
   );

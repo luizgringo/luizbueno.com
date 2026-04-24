@@ -1,5 +1,5 @@
-import Typist from 'react-typist';
 import Image from 'next/image';
+import { TypeAnimation } from 'react-type-animation';
 
 import vintageComputerImg from '../../public/images/vintagecomputer.gif';
 
@@ -12,20 +12,32 @@ const Jumbotron = () => {
             <div className='row'>
               <div className='col-lg-12'>
                 <h1>
-                  <Typist cursor={{ show: false }}>Hi!</Typist>
+                  <TypeAnimation
+                    sequence={['Hi!']}
+                    wrapper='span'
+                    cursor={false}
+                    speed={60}
+                    preRenderFirstString={false}
+                  />
                 </h1>
               </div>
               <div className='col-lg-12 second-title'>
-                <Typist cursor={{ show: false }}>
-                  <Typist.Delay ms={2000} />
-                  My name is Luiz Bueno.
-                </Typist>
+                <TypeAnimation
+                  sequence={[2000, 'My name is Luiz Bueno.']}
+                  wrapper='span'
+                  cursor={false}
+                  speed={60}
+                  preRenderFirstString={false}
+                />
               </div>
               <div className='col-lg-12 second-title'>
-                <Typist cursor={{ show: false }}>
-                  <Typist.Delay ms={5000} />
-                  And I`m a Web Developer!
-                </Typist>
+                <TypeAnimation
+                  sequence={[5000, 'And I`m a Web Developer!']}
+                  wrapper='span'
+                  cursor={false}
+                  speed={60}
+                  preRenderFirstString={false}
+                />
               </div>
             </div>
             <Image
@@ -34,6 +46,7 @@ const Jumbotron = () => {
               height={400}
               className='vintage-computer'
               src={vintageComputerImg}
+              unoptimized
             />
           </div>
         </div>

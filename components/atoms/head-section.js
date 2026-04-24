@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Script from 'next/script'
 
 const HeadSection = () => {
   return (
@@ -16,8 +15,6 @@ const HeadSection = () => {
           content="Online portifolio of Luiz Bueno and his experience with web development, user experience and user interfaces and agile frameworks." />
         <meta name="author" key="author" content="Luiz Bueno - contact@luizbueno.com" />
       </Head>
-
-      <Script src="https://s.darwin.to/si60f877daab8c0e21075c7059.js" strategy="beforeInteractive" />
     </section>
   )
 }
